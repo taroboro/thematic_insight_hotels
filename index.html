@@ -10,7 +10,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: #fff;
     padding: 40px;
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
   }
   .header {
@@ -49,7 +49,7 @@
   }
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
   .theme {
@@ -94,22 +94,16 @@
     line-height: 1.4;
     font-weight: 500;
   }
-  /* MBS — Blue */
   .mbs { background: #E6F1FB; color: #0C447C; border: 1px solid #85B7EB; }
-  /* Fullerton Bay — Yellow */
   .fb { background: #FAEEDA; color: #633806; border: 1px solid #FAC775; }
-  /* Fullerton Hotel — Orange */
   .fh { background: #FAECE7; color: #712B13; border: 1px solid #F0997B; }
 
-  /* Theme header colours */
   .t1 .theme-header { background: #f0f5ff; }
   .t1 .theme-number { background: #185FA5; color: #fff; }
   .t2 .theme-header { background: #fff8f0; }
   .t2 .theme-number { background: #BA7517; color: #fff; }
   .t3 .theme-header { background: #fdf0f0; }
   .t3 .theme-number { background: #993C1D; color: #fff; }
-  .t4 .theme-header { background: #f5f0fb; }
-  .t4 .theme-number { background: #534AB7; color: #fff; }
 
   .source-row {
     display: flex;
@@ -148,23 +142,22 @@
       <div class="theme-title">Check-In Flow & Queue Dynamics</div>
     </div>
     <div class="tags-area">
+      <span class="tag mbs">Queues form after 2:30pm</span>
       <span class="tag mbs">15–20 min average check-in time</span>
       <span class="tag mbs">Some guests 20+ mins at counter</span>
-      <span class="tag mbs">Queues lengthen after 2:30pm</span>
       <span class="tag mbs">Multiple guests crowding single counter</span>
       <span class="tag mbs">No self-check-in kiosks observed</span>
       <span class="tag mbs">All processing dependent on staff</span>
       <span class="tag fh">Only 3 staff stationed outside</span>
       <span class="tag fh">Guests clustering near lobby seating</span>
-      <span class="tag fh">Guests waiting for family before checking in</span>
-      <span class="tag mbs">Wide front desk still felt congested</span>
+      <span class="tag fb">Minimal check-in activity observed</span>
     </div>
   </div>
 
   <div class="theme t2">
     <div class="theme-header">
       <div class="theme-number">2</div>
-      <div class="theme-title">Physical Labour Intensity & Luggage Handling</div>
+      <div class="theme-title">Physical Labour & Luggage Handling</div>
     </div>
     <div class="tags-area">
       <span class="tag mbs">Bellboys drag luggage to central tagging point</span>
@@ -172,12 +165,12 @@
       <span class="tag mbs">Manual tagging with pen and paper</span>
       <span class="tag mbs">Multiple bellboys for heavy-luggage guests</span>
       <span class="tag mbs">Oversized and oddly shaped luggage</span>
-      <span class="tag mbs">Plastic bags and loose souvenirs alongside formal luggage</span>
-      <span class="tag mbs">Luggage taken out of sight after tagging</span>
-      <span class="tag mbs">Covered trolleys manually pulled to lifts</span>
+      <span class="tag mbs">No room escort for standard guests</span>
       <span class="tag fh">Luggage manually pushed to side of desk</span>
+      <span class="tag fh">Guest requested luggage back immediately</span>
+      <span class="tag fh">Guest declined bellboy for 3 pieces</span>
       <span class="tag fh">Steps from foyer to main lobby</span>
-      <span class="tag fh">Some luggage brought to back room behind desk</span>
+      <span class="tag mbs">Loose bags placed on lobby floors by guests</span>
       <span class="tag fb">Minimal luggage activity observed</span>
     </div>
   </div>
@@ -192,31 +185,11 @@
       <span class="tag mbs">Service driven by assertiveness not standard</span>
       <span class="tag mbs">Bellboy assistance informally allocated</span>
       <span class="tag mbs">Fewer-bag guests largely left to self-serve</span>
-      <span class="tag mbs">Vehicle priority system — limousines closest to entrance</span>
-      <span class="tag mbs">Manager handles disputes; bellboy handles luggage only</span>
+      <span class="tag mbs">Luggage disputes escalated to managers</span>
+      <span class="tag mbs">~1 in 5 guests prefer to self-carry</span>
       <span class="tag fh">Guest unaware bellboy was offering help</span>
-      <span class="tag fh">Guest declined bellboy for 3 pieces of luggage</span>
-      <span class="tag fh">~1 in 5 guests prefer to self-carry</span>
-      <span class="tag fb">Staff presence minimal, limited proactive service</span>
-    </div>
-  </div>
-
-  <div class="theme t4">
-    <div class="theme-header">
-      <div class="theme-number">4</div>
-      <div class="theme-title">Lobby Atmosphere & Luxury Perception</div>
-    </div>
-    <div class="tags-area">
-      <span class="tag mbs">Luggage carts moving diagonally across lobby</span>
-      <span class="tag mbs">Plastic bags and items on lobby floors</span>
-      <span class="tag mbs">Groups clustering near entrance</span>
-      <span class="tag mbs">Visual clutter inconsistent with luxury positioning</span>
-      <span class="tag mbs">LV bag and personal items placed on ground</span>
-      <span class="tag mbs">Crowding diminishes perceived luxury</span>
-      <span class="tag fh">Public lobby feel — non-guests present</span>
-      <span class="tag fh">Guy studying, families seated, businessman in lounge</span>
-      <span class="tag fh">Minimal active service presence</span>
-      <span class="tag fb">Quiet, low activity — not representative of peak arrival</span>
+      <span class="tag fh">Only 3 staff outside during peak period</span>
+      <span class="tag fb">Staff presence minimal at Fullerton Bay</span>
     </div>
   </div>
 
